@@ -1,0 +1,17 @@
+import Tool.DbToNodeRelation;
+
+
+public class Test {
+
+	/**
+	 * TODO
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DbToNodeRelation db=new DbToNodeRelation("userstatus",100);
+		db.Initialize();
+
+	}
+
+}
